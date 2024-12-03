@@ -1,0 +1,17 @@
+{
+  "name": "@rrakso/advent-of-code",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": "https://tinsel-titans@github.com/tinsel-titans/advent_of_code_gleam.git",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev --clear --respawn src/main.ts",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@tsconfig/node22": "^22.0.0",
+    "@types/node": "^22.10.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.7.2"
+  }
+}
