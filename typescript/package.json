@@ -5,7 +5,7 @@
   "repository": "https://tinsel-titans@github.com/tinsel-titans/advent_of_code_gleam.git",
   "license": "MIT",
   "scripts": {
-    "dev": "ts-node-dev --clear --respawn src/main.ts",
+    "dev": "ts-node-dev --env-file=.env --clear --respawn src/main.ts",
     "build": "tsc",
     "lint": "gts lint",
     "clean": "gts clean",
